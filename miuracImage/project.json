@@ -1,0 +1,8 @@
+{
+  "name": "miurac-image",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "miuracImage/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@codebase/MIDL": ["MIDL/src/index.ts"],
+      "@codebase/configs": ["configs/src/index.ts"],
+      "@codebase/constants": ["constants/src/index.ts"],
+      "@codebase/miurac-image": ["miuracImage/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
